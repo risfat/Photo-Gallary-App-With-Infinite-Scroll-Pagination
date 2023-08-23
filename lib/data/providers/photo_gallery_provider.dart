@@ -17,6 +17,8 @@ class PhotoGalleryProvider with ChangeNotifier {
   String? get error => _error;
   bool get isLoading => _isLoading;
 
+  final _apiService = UnsplashApiService();
+
   Future<void> fetchPhotos() async {
     dynamic responseBody;
 
@@ -26,10 +28,7 @@ class PhotoGalleryProvider with ChangeNotifier {
       }
       _isLoading = true;
 
-      responseBody = await Network.handleResponse(await Network.getRequest(
-        API.getImages(_currentPage, _perPage),
-        requireToken: true,
-      ));
+      responseBody = await _apiService.getPhotos(_currentPage, _perPage);
 
       if (responseBody != null) {
         final newPhotos = responseBody as List<dynamic>;

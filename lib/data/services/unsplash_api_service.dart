@@ -6,19 +6,13 @@ import '../../network/network_utils.dart';
 
 class UnsplashApiService {
 
-  Future<List<dynamic>> fetchPhotos(int page, int perPage) async {
+  Future<List<dynamic>> getPhotos(int page, int perPage) async {
     dynamic responseBody;
 
     try {
       responseBody = await Network.handleResponse(await Network.getRequest(
           API.getImages(page, perPage), requireToken: true));
-
-      if (responseBody != null) {
-
-        return responseBody;
-      } else {
-        throw Exception('Failed to fetch photos');
-      }
+      return responseBody;
     } catch (error, stackTrace) {
       print(error);
       print(stackTrace);

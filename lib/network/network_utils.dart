@@ -7,7 +7,7 @@ import 'endpoints.dart';
 
 class Network {
   static String noInternetMessage = "Check your connection!";
-  static const String _accessToken = false ? "j-PoAIk-q8sZQtkEk1pxBprz9ZmvPzM8VSxQoWHI5pg" : "L7ReqSDsNlCrj3mOEu4nLggwlGf2Pdi54_n5UaXEb8U";
+  static const String _accessToken = "j-PoAIk-q8sZQtkEk1pxBprz9ZmvPzM8VSxQoWHI5pg";
 
   static getRequest(String endPoint,
       {bool requireToken = true, bool noBaseUrl = false}) async {
