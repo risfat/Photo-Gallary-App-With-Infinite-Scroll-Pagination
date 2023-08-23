@@ -13,11 +13,11 @@ A Flutter app that displays a gallery of photos fetched from an API. Users can s
 
 ## Screenshots
 
-![App Demo](url)
+![App Demo](https://github.com/risfat/iXora_Solution_Assignment/blob/main/demo/app_demo.gif)
 
 ## Installation
 
-1. Clone this repository using: git clone https://github.com/risfat/ixora_solution_assignment.git
+1. Clone this repository using: git clone https://github.com/risfat/iXora_Solution_Assignment.git
 2. Navigate to the project directory
 3. Install the dependencies
 4. Run the app
