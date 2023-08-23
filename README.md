@@ -13,7 +13,7 @@ A Flutter app that displays a gallery of photos fetched from an API. Users can s
 
 ## Screenshots
 
-![App Demo](https://github.com/risfat/iXora_Solution_Assignment/blob/main/demo/app_demo.gif)
+![App Demo](https://github.com/risfat/iXora_Solution_Assignment/blob/main/app_demo.gif)
 
 ## Installation
 
