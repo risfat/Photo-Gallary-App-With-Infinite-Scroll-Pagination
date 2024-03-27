@@ -1,6 +1,4 @@
-# iXora_Solution_Assignment
-
-## Photo Gallery App
+# Photo-Gallary-App-With-Infinite-Scroll-Pagination
 
 A Flutter app that displays a gallery of photos fetched from an API. Users can scroll through the gallery, view photo details, and save photos to their device's gallery.
 
