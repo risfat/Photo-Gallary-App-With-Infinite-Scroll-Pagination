@@ -15,7 +15,7 @@ A Flutter app that displays a gallery of photos fetched from an API. Users can s
 
 ## Installation
 
-1. Clone this repository using: git clone https://github.com/risfat/iXora_Solution_Assignment.git
+1. Clone this repository using: git clone https://github.com/risfat/Photo-Gallary-App-With-Infinite-Scroll-Pagination.git
 2. Navigate to the project directory
 3. Install the dependencies
 4. Run the app
